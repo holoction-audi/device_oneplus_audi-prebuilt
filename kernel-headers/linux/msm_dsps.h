@@ -1,21 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
-/*
- * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
- */
-
-#ifndef _DSPS_H_
-#define _DSPS_H_
-
-#include <linux/ioctl.h>
-
-#define DSPS_IOCTL_MAGIC 'd'
-
-#define DSPS_IOCTL_ON	_IO(DSPS_IOCTL_MAGIC, 1)
-#define DSPS_IOCTL_OFF	_IO(DSPS_IOCTL_MAGIC, 2)
-
-#define DSPS_IOCTL_READ_SLOW_TIMER _IOR(DSPS_IOCTL_MAGIC, 3, unsigned int*)
-#define DSPS_IOCTL_READ_FAST_TIMER _IOR(DSPS_IOCTL_MAGIC, 4, unsigned int*)
-
-#define DSPS_IOCTL_RESET _IO(DSPS_IOCTL_MAGIC, 5)
-
-#endif	/* _DSPS_H_ */
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b142f071c68f7ab9a7ad53dbf4d93f404422e4523c6900d295d64bdc195f337
+size 565

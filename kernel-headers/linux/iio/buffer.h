@@ -1,10 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-/* industrial I/O buffer definitions needed both in and out of kernel
- */
-
-#ifndef _IIO_BUFFER_H_
-#define _IIO_BUFFER_H_
-
-#define IIO_BUFFER_GET_FD_IOCTL			_IOWR('i', 0x91, int)
-
-#endif /* _IIO_BUFFER_H_ */
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfc104f82fcc9201c4d854976cc9e93f6cf746bc3eca1db1ea463b72cefc2ca2
+size 270

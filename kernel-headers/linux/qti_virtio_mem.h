@@ -1,28 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
-/*
- * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
- */
-
-#ifndef _LINUX_QTI_VIRTIO_MEM_H
-#define _LINUX_QTI_VIRTIO_MEM_H
-
-#include <linux/ioctl.h>
-#include <linux/types.h>
-
-#define QTI_VIRTIO_MEM_IOC_MAGIC 'M'
-
-#define QTI_VIRTIO_MEM_IOC_MAX_NAME_LEN 128
-struct qti_virtio_mem_ioc_hint_create_arg {
-	char name[QTI_VIRTIO_MEM_IOC_MAX_NAME_LEN];
-	__s64 size;
-	__u32 fd;
-	__u32 reserved0;
-	__u64 reserved1;
-};
-
-#define QTI_VIRTIO_MEM_IOC_HINT_CREATE				\
-	_IOWR(QTI_VIRTIO_MEM_IOC_MAGIC, 0,			\
-		struct qti_virtio_mem_ioc_hint_create_arg)
-
-
-#endif /* _LINUX_QTI_VIRTIO_MEM_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:1dba8de80928c33fd35cd7b8030434720f3d9cc4777ad7ce11736433b3a5d8b2
+size 671

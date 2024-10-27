@@ -1,12 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-
-#ifndef _LINUX_PIDFD_H
-#define _LINUX_PIDFD_H
-
-#include <linux/types.h>
-#include <linux/fcntl.h>
-
-/* Flags for pidfd_open().  */
-#define PIDFD_NONBLOCK O_NONBLOCK
-
-#endif /* _LINUX_PIDFD_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:58d069b58a8ae95777e2ad762ff0ee83c3acef0bb3d02a73f593718c2b162cf5
+size 256

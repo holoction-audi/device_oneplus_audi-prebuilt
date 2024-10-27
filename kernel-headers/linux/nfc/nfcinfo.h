@@ -1,21 +1,3 @@
-#ifndef _NFCINFO_H_
-#define _NFCINFO_H_
-
-#include <linux/ioctl.h>
-
-#define NFCC_MAGIC 0xE9
-#define NFCC_GET_INFO _IOW(NFCC_MAGIC, 0x09, unsigned int)
-
-struct nqx_devinfo {
-	unsigned char chip_type;
-	unsigned char rom_version;
-	unsigned char fw_major;
-	unsigned char fw_minor;
-};
-
-union nqx_uinfo {
-	unsigned int i;
-	struct nqx_devinfo info;
-};
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:1aa0464784c2510737bd9c0c693925a630f400bf970df776e47635e464c4a382
+size 352

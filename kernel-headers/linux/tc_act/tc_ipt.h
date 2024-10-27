@@ -1,20 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-#ifndef __LINUX_TC_IPT_H
-#define __LINUX_TC_IPT_H
-
-#include <linux/pkt_cls.h>
-
-enum {
-	TCA_IPT_UNSPEC,
-	TCA_IPT_TABLE,
-	TCA_IPT_HOOK,
-	TCA_IPT_INDEX,
-	TCA_IPT_CNT,
-	TCA_IPT_TM,
-	TCA_IPT_TARG,
-	TCA_IPT_PAD,
-	__TCA_IPT_MAX
-};
-#define TCA_IPT_MAX (__TCA_IPT_MAX - 1)
-                                                                                
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e04a25903d5909aeb1cfbcca1c4b08be0f22f4faf1b30a70bbcaf161bf45e42
+size 415

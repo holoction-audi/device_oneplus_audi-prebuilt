@@ -1,10 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-#ifndef __ASM_MMAN_H
-#define __ASM_MMAN_H
-
-#include <asm-generic/mman.h>
-
-#define PROT_BTI	0x10		/* BTI guarded page */
-#define PROT_MTE	0x20		/* Normal Tagged mapping */
-
-#endif /* ! _UAPI__ASM_MMAN_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:fec1cab282565a08171ad2a3e1568d74b01ab7d69498e8a1a900c06fb99e6ba2
+size 268

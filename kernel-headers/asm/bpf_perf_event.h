@@ -1,9 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-#ifndef __ASM_BPF_PERF_EVENT_H__
-#define __ASM_BPF_PERF_EVENT_H__
-
-#include <asm/ptrace.h>
-
-typedef struct user_pt_regs bpf_user_pt_regs_t;
-
-#endif /* __ASM_BPF_PERF_EVENT_H__ */
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbd33bd90bbedb064bf8965fe2ac46b81949fefcc3b1a376b410a28257b3ce2f
+size 242

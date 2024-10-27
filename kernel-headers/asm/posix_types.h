@@ -1,11 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-#ifndef __ASM_POSIX_TYPES_H
-#define __ASM_POSIX_TYPES_H
-
-typedef unsigned short __kernel_old_uid_t;
-typedef unsigned short __kernel_old_gid_t;
-#define __kernel_old_uid_t __kernel_old_uid_t
-
-#include <asm-generic/posix_types.h>
-
-#endif /*  __ASM_POSIX_TYPES_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef6ce264aa33309c5b69ad09c2bd293c9bb79a6fc2c3cd22f34dbbd8f5acfb1f
+size 325

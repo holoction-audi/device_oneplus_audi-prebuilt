@@ -1,21 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-#ifndef _LINUX_BPFILTER_H
-#define _LINUX_BPFILTER_H
-
-#include <linux/if.h>
-
-enum {
-	BPFILTER_IPT_SO_SET_REPLACE = 64,
-	BPFILTER_IPT_SO_SET_ADD_COUNTERS = 65,
-	BPFILTER_IPT_SET_MAX,
-};
-
-enum {
-	BPFILTER_IPT_SO_GET_INFO = 64,
-	BPFILTER_IPT_SO_GET_ENTRIES = 65,
-	BPFILTER_IPT_SO_GET_REVISION_MATCH = 66,
-	BPFILTER_IPT_SO_GET_REVISION_TARGET = 67,
-	BPFILTER_IPT_GET_MAX,
-};
-
-#endif /* _LINUX_BPFILTER_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c8eac3ebb79bfc343db26d2faa1e22c29c29e213b921a4452a1de702b0f64c6
+size 465

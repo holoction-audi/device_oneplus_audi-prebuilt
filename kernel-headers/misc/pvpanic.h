@@ -1,9 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-
-#ifndef __PVPANIC_H__
-#define __PVPANIC_H__
-
-#define PVPANIC_PANICKED	(1 << 0)
-#define PVPANIC_CRASH_LOADED	(1 << 1)
-
-#endif /* __PVPANIC_H__ */
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8a674b28053c0b463f887ad7d0901b576714653033ca729b0fb4c9b1aee9e26
+size 209

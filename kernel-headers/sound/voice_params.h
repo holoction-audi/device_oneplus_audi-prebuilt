@@ -1,13 +1,3 @@
-#ifndef __VOICE_PARAMS_H__
-#define __VOICE_PARAMS_H__
-
-#include <linux/types.h>
-
-enum voice_lch_mode {
-	VOICE_LCH_START = 1,
-	VOICE_LCH_STOP
-};
-
-#define SNDRV_VOICE_IOCTL_LCH _IOW('U', 0x00, enum voice_lch_mode)
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:72ec5c96a23528130929e7486c1579e8c87f62dc8b158ab88d0611fca03e8c03
+size 220

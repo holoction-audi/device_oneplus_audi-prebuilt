@@ -1,17 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
-/*
- * Copyright (c) 2020-2021, The Linux Foundation. All rights reserved.
- * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
- */
-
-#ifndef __UAPI_LINUX_MSM_GENI_SERIAL_H
-#define __UAPI_LINUX_MSM_GENI_SERIAL_H
-
-/* IOCTLS used by BT clients to control UART power state */
-
-#define MSM_GENI_SERIAL_TIOCFAULT	0x54EC  /* Uart fault */
-#define MSM_GENI_SERIAL_TIOCPMGET	0x54ED	/* PM get */
-#define MSM_GENI_SERIAL_TIOCPMPUT	0x54EE	/* PM put */
-#define MSM_GENI_SERIAL_TIOCPMACT	0x54EF	/* PM is active */
-
-#endif /* __UAPI_LINUX_MSM_GENI_SERIAL_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:4142adf89cb4f280e928c9ee371e4a7b2fd49e2112c636607768c8a6e749619b
+size 635
